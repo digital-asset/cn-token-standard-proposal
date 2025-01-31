@@ -39,7 +39,7 @@ if [[ "$(uname -s)" == "Linux" ]]; then
     arch=$(uname -m)
     os="linux-$arch"
 elif [[ "$(uname -s)" == "Darwin" ]]; then
-    os="macos"
+    os="macos-x86_64"
 else
     echo "OS not supported for development in this repo."
 fi
