@@ -10,10 +10,12 @@ CN wallets,
 3. the needs of apps to construct (multi-legged) DvP transactions across arbitrary CN assets.
 
 This code together with appropriate documentation is ultimately
-meant to be submitted as a Canton Improvement Proposal (CIP) to the [Global Synchronizer Foundation](https://sync.global/). The current state of the code is intended to support a presentation of the design
-shared with interested parties via the [CIP discussion mailing list](https://lists.sync.global/g/cip-discuss/topics).
+meant to be submitted as a Canton Improvement Proposal (CIP) to the [Global Synchronizer Foundation](https://sync.global/).
+The current state of the code is intended to support this [slide deck presenting the design](https://docs.google.com/presentation/d/1PNyGMfILA-AKaTRsBP82kavFWG2W_8JNVgOaIKVsgq4/edit#slide=id.g2722663396b_0_1589).
+It was
+shared with interested parties via the [CIP discussion mailing list](https://lists.sync.global/g/cip-discuss/message/5).
 
-We recommend starting with watching that presentation before reviewing the code itself.
+We recommend starting with reviewing that slide deck before reviewing the code itself.
 Once done so we recommend reviewing the code and its tests in the directories of the form `cnrc-*`
 jointly with the examples in `examples/`. Examples of particular interest are:
 
